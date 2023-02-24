@@ -23,7 +23,7 @@ const MenuBar = ({ editor }) => {
             {paragraghStyle} <FaCaretDown onClick={toggleShow}/>
           </div>
           <div className={`absolute z-max pointer w-auto ${ShowDiv}`}>
-            <div className="ph3 pv2 mt3 f7 cf w-40 bb b--black-05 card-shadow hover-white">
+            <div className="ph3 pv2 mt3 f7 bg-white cf w-40 bb b--black-05 card-shadow hover-white">
               <button
                 onClick={() => {editor.chain().focus().setParagraph().run(); toggleShow(); setParagraghStyle("paragraph")}}
                 className={`inputfield bg-transparent fl w-100 hover-bg-black-60 hover-white pv1 ${editor.isActive('paragraph') ? 'is-active' : ''}`}
