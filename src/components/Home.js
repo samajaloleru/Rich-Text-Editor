@@ -21,7 +21,7 @@ function Home() {
 
   return (
     <>
-      <div className="flex items-center bg-near-white w-100 vh-100">
+      <div className="flex items-center bg-black-10 w-100 vh-100">
         <div className="cf center mw6 w-100">
           <div className="fl ba br2  b--black-10 w-100">
             <div className="fl w-100 pa2 bb b--black-10"> &nbsp; </div>

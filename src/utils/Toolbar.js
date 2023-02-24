@@ -17,7 +17,7 @@ const MenuBar = ({ editor }) => {
   return (
     <>
     <div className="fl w-100">
-      <div className="flex justify-between items-center bg-white w-two-thirds flex-row black-60 br2 pv1 f8">
+      <div className="flex justify-between items-center bg-white w-two-thirds-ns w-90 flex-row black-60 br2 pv1 f8">
         <div className="flex w-20">
           <div className="ttc w-100 pointer pl1 tc">
             {paragraghStyle} <FaCaretDown onClick={toggleShow}/>
